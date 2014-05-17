@@ -1,0 +1,5 @@
+.MyComponent {
+  background: requireStatic('./react.png');
+  height: 400px;
+  width: 400px;
+}

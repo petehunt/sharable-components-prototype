@@ -1,4 +1,9 @@
 /** @jsx React.DOM */
-var React = require('react/react');
+var React = require('react');
 
-React.renderComponent(<div>Test</div>, document.body);
+requireStatic('./style.css');
+
+React.renderComponent(
+  <div className="MyComponent" />,
+  document.body
+);
